@@ -1,3 +1,5 @@
+import THREE from './src/three.js/three.module.js'
+
 class World{
     constructor(x, y, z) {
         this.x = x

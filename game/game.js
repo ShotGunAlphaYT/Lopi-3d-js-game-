@@ -25,11 +25,19 @@ class World_blocks{
         coal();
         iron();
     }
-    coal() {
-        //pass
+    coal(x,y,z) {
+        textures (
+            x, './src/Textures/coal.png',
+            y, './src/Textures/coal.png',
+            z, './src/Textures/coal.png'
+        );
     }
-    iron() {
-        //pass
+    iron(x,y,z) {
+        textures (
+            x, './src/Textures/iron.png',
+            y, './src/Textures/iron.png',
+            z, './src/Textures/iron.png'
+        );
     }
     bedrock(world_height) {
         world_height = (128, 128)

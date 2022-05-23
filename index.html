@@ -4,32 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lopi</title>
     <script src="./main.js"></script>
+    <title>Lopi - Main Menu</title>
 </head>
 <body>
-    <h1>Lopi</h1>   
-    <div> <!-- buttons -->
-        <!-- <button onclick="load_saved_game()">Load Saved Game(This is only advaiable to the expiermental version of the game which only developers have!)</button> -->
-        <button onclick="new_game()">New</button>
-        <a href="https://discord.gg/KJU4zHy8k5" target="_blank">
-            <button>
-                Discord
-            </button>
-        </a>
-        <button onclick="quit()">Quit</button>
-    </div>
-    <style>
-        body {
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: aquamarine;
-        }
-        button {
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
-            background-color: black;
-        }
-    </style>
+    <ul>
+        <li>Lopi</li>
+        <a href="https://discord.gg/KJU4zHy8k5" target="_blank"><li>Discord</li></a>
+        <li onclick="new_game()">New Game</li>
+        <li onclick="quit()">Quit</li>
+    </ul>
 </body>
 </html>
